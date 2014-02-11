@@ -64,7 +64,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="female.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="male.cpp" />
+    <ClCompile Include="person.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="female.h" />
+    <ClInclude Include="male.h" />
+    <ClInclude Include="person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
